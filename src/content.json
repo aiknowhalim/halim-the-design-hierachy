@@ -1,21 +1,70 @@
 {
-  "title": "halim-the-design-hierachy",
-  "tagline": "Welcome — this is your new site, ready to be filled with your story.",
+  "title": "The Design Hierachy",
+  "tagline": "A sharp visual guide for expert audiences — where attention, structure, and style work together to make complex ideas feel clear, credible, and memorable.",
   "sections": [
     {
-      "heading": "About",
-      "body": "Tell visitors who you are and what you do. Write as many paragraphs as you like — leave a blank line between them and each becomes its own paragraph.\n\nThis starter text is here so the page looks like a real site from the first minute. Replace it with your own words.",
-      "items": []
+      "heading": "For Expert Audiences",
+      "body": "Expert audiences do not need everything simplified. They need everything organized. They scan quickly, compare details, look for proof, and expect the design to respect their time.\n\nFor them, visual hierarchy is less about decoration and more about precision: the page must show what matters first, reveal supporting evidence next, and make deeper information easy to access without slowing them down.",
+      "items": [
+        "Lead with the strongest insight, not a long introduction.",
+        "Use clear labels, sections, and visual anchors so experts can scan fast.",
+        "Make evidence visible through metrics, comparisons, examples, and structured details."
+      ]
     },
     {
-      "heading": "What you'll find here",
-      "body": "Use sections like this one to introduce your services, your work, or anything you want to highlight.",
+      "heading": "How Visual Hierarchy Works",
+      "body": "Visual hierarchy controls the order of attention. It tells the viewer where to look first, what to understand next, and what action or conclusion should follow.\n\nThe main tools are scale, contrast, spacing, typography, color, alignment, imagery, and motion. When these tools are used well, the design feels effortless. When they compete, the page feels noisy and uncertain.",
       "items": [
-        "Add a bullet list by filling the \"items\" array",
-        "Add more sections by adding objects to \"sections\"",
-        "Remove a field you don't need — the page adapts"
+        "Scale makes the most important idea feel immediate.",
+        "Contrast separates priority from background information.",
+        "Spacing creates breathing room and signals importance.",
+        "Typography builds rhythm, authority, and readability.",
+        "Color guides attention, but should not be the only cue."
+      ]
+    },
+    {
+      "heading": "Design Style Matters",
+      "body": "A design style shapes how the message feels. The same information can feel premium, playful, academic, corporate, experimental, or urgent depending on the visual choices.\n\nFor expert audiences, the best style is usually confident rather than loud: strong typography, disciplined spacing, limited colors, and carefully placed visual emphasis. The design should feel intelligent before it feels decorative.",
+      "items": [
+        "Minimal editorial style feels focused, calm, and premium.",
+        "Bold typographic style feels modern, confident, and memorable.",
+        "Data-led style feels credible, analytical, and evidence-based.",
+        "Luxury style uses restraint, space, and detail to create authority."
+      ]
+    },
+    {
+      "heading": "What Experts Look For",
+      "body": "Experts often judge a page by how quickly it helps them understand the system behind the message. They look for structure, accuracy, relevance, and depth.\n\nThis means the design should support both quick scanning and deeper reading. A strong expert-facing page gives the big idea immediately, then lets the viewer move into details at their own pace.",
+      "items": [
+        "A clear thesis or point of view at the top.",
+        "Organized sections with meaningful headings.",
+        "Proof points, examples, comparisons, or frameworks.",
+        "No unnecessary clutter, vague claims, or visual gimmicks.",
+        "A layout that feels intentional from top to bottom."
+      ]
+    },
+    {
+      "heading": "Audience-Based Design Approach",
+      "body": "Different audiences need different forms of hierarchy. Beginners need more guidance and explanation. General users need speed and clarity. Older users benefit from larger text, stronger contrast, and fewer distractions.\n\nExpert audiences need density without chaos. They can handle more information, but only when the design makes relationships clear. The challenge is not to make the page empty — it is to make complex content feel navigable.",
+      "items": [
+        "Beginners: step-by-step guidance, examples, and simple language.",
+        "General users: clear headlines, visible actions, and simple structure.",
+        "Older adults: larger text, high contrast, and predictable navigation.",
+        "Experts: clear frameworks, precise labels, rich details, and fast scanning."
+      ]
+    },
+    {
+      "heading": "Expert Design Checklist",
+      "body": "A strong expert-facing design should feel like a well-organized argument. Every element should earn its place, and every visual choice should help the viewer understand priority, relationship, or meaning.",
+      "items": [
+        "Can the main idea be understood in five seconds?",
+        "Are headings specific enough to scan without reading every paragraph?",
+        "Is the strongest evidence easy to find?",
+        "Does spacing show which ideas belong together?",
+        "Are color and type used consistently instead of randomly?",
+        "Is the page visually impressive without becoming distracting?"
       ]
     }
   ],
-  "footer": "Built with halim-the-design-hierachy."
+  "footer": "The Design Hierachy — built for sharper attention, clearer structure, and expert-level design thinking."
 }
