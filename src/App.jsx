@@ -28,6 +28,7 @@ function Paragraphs({ text }) {
 
 function Section({ section, index }) {
   const items = Array.isArray(section.items) ? section.items : [];
+  const otherStyles = Array.isArray(section.otherStyles) ? section.otherStyles : [];
   const accent = accents[index % accents.length];
   const label = audiences[index] || `Layer ${index + 1}`;
   const style = section.exampleStyle;
@@ -45,6 +46,22 @@ function Section({ section, index }) {
           <div className="copy">
             <Paragraphs text={section.body} />
           </div>
+        </div>
+
+        <aside className="right-panel">
+          {items.length > 0 && (
+            <div className="signal-box">
+              <p className="signal-title">Design signals</p>
+              <ul>
+                {items.map((item, itemIndex) => (
+                  <li key={itemIndex}>
+                    <span>{String(itemIndex + 1).padStart(2, '0')}</span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {style && (
             <div className="style-callout">
@@ -54,21 +71,18 @@ function Section({ section, index }) {
               <p className="style-why">Why it fits: {style.why}</p>
             </div>
           )}
-        </div>
 
-        {items.length > 0 && (
-          <div className="signal-box">
-            <p className="signal-title">Design signals</p>
-            <ul>
-              {items.map((item, itemIndex) => (
-                <li key={itemIndex}>
-                  <span>{String(itemIndex + 1).padStart(2, '0')}</span>
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
+          {otherStyles.length > 0 && (
+            <div className="other-styles">
+              <p className="style-kicker">Other design styles</p>
+              <div className="style-chips">
+                {otherStyles.map((name) => (
+                  <span key={name}>{name}</span>
+                ))}
+              </div>
+            </div>
+          )}
+        </aside>
       </div>
     </article>
   );
@@ -120,12 +134,15 @@ export default function App() {
         h2 { margin: 0 0 1rem; color: #FFFFFF; font-size: clamp(2rem, 5vw, 4.2rem); line-height: .95; letter-spacing: -.08em; text-wrap: balance; }
         .copy { max-width: 720px; color: #CBD5E1; }
         .paragraph { margin: 0 0 1rem; line-height: 1.75; font-size: 1.02rem; }
-        .style-callout { margin-top: 1.35rem; padding: 1.05rem; border-radius: 22px; background: linear-gradient(135deg, color-mix(in srgb, var(--accent), transparent 84%), rgba(255,255,255,.055)); border: 1px solid color-mix(in srgb, var(--accent), transparent 55%); }
+        .right-panel { display: grid; gap: .9rem; align-self: stretch; }
+        .style-callout, .other-styles { padding: 1.05rem; border-radius: 22px; background: linear-gradient(135deg, color-mix(in srgb, var(--accent), transparent 84%), rgba(255,255,255,.055)); border: 1px solid color-mix(in srgb, var(--accent), transparent 55%); }
         .style-kicker { margin: 0 0 .45rem; color: var(--accent); font-size: .76rem; font-weight: 950; letter-spacing: .14em; text-transform: uppercase; }
-        .style-callout h3 { margin: 0 0 .55rem; color: #FFFFFF; font-size: clamp(1.35rem, 3vw, 2rem); letter-spacing: -.05em; }
+        .style-callout h3 { margin: 0 0 .55rem; color: #FFFFFF; font-size: clamp(1.25rem, 2.2vw, 1.75rem); letter-spacing: -.05em; }
         .style-callout p { margin: 0 0 .7rem; color: #D6E0EF; line-height: 1.6; }
         .style-callout p:last-child { margin-bottom: 0; }
         .style-why { color: #FFFFFF !important; font-weight: 650; }
+        .style-chips { display: flex; flex-wrap: wrap; gap: .5rem; }
+        .style-chips span { display: inline-flex; padding: .45rem .65rem; border-radius: 999px; color: #FFFFFF; background: rgba(255,255,255,.09); border: 1px solid rgba(255,255,255,.13); font-size: .82rem; font-weight: 750; }
         .signal-box { border-radius: 24px; padding: 1rem; background: rgba(2,6,23,.55); border: 1px solid rgba(255,255,255,.12); }
         .signal-title { margin: 0 0 .8rem; color: var(--accent); font-weight: 950; letter-spacing: .08em; text-transform: uppercase; font-size: .78rem; }
         ul { list-style: none; padding: 0; margin: 0; display: grid; gap: .7rem; }
