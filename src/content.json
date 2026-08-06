@@ -5,6 +5,11 @@
     {
       "heading": "What Visual Hierarchy Means",
       "body": "Visual hierarchy is the order in which people notice and understand information. It decides what feels important, what feels secondary, and what action comes next.\n\nDesigners build hierarchy through scale, contrast, color, spacing, typography, alignment, imagery, and motion. When these elements work together, the page feels clear. When they compete, the page feels confusing.",
+      "exampleStyle": {
+        "name": "Editorial Grid / Magazine",
+        "description": "A structured editorial style with asymmetric grids, pull quotes, strong typography, and a clear reading path.",
+        "why": "This works as the foundation because the site is teaching a concept. It makes the guide feel like a polished design article rather than a simple school note."
+      },
       "items": [
         "Big elements create instant attention.",
         "Contrast separates priority from background detail.",
@@ -16,6 +21,11 @@
     {
       "heading": "General Users",
       "body": "General users usually want to understand the page quickly. They may not read every word, so the design needs to communicate the main idea almost instantly.\n\nFor this audience, hierarchy should feel obvious: a strong headline, a short explanation, a clear button or next step, and sections that are easy to scan.",
+      "exampleStyle": {
+        "name": "Minimal & Direct",
+        "description": "A clear, fast-loading style with one main message, one obvious action, and very little distraction.",
+        "why": "General users need speed and clarity. Minimal & Direct helps them understand the page without making them decode the design."
+      },
       "items": [
         "Use simple headings and direct language.",
         "Make the main action easy to spot.",
@@ -26,6 +36,11 @@
     {
       "heading": "Beginner Audiences",
       "body": "Beginners need guidance. They may not understand the topic yet, so the design should explain ideas step by step instead of overwhelming them with too much information at once.\n\nA beginner-friendly hierarchy feels supportive. It introduces the big idea, gives examples, breaks content into small parts, and repeats key cues so the viewer always knows where they are.",
+      "exampleStyle": {
+        "name": "Storytelling-Driven",
+        "description": "A narrative style that guides visitors through chapters, emotional cues, examples, and a clear progression.",
+        "why": "Beginners learn better when the design feels like a journey. Storytelling-Driven gives them context before asking them to understand details."
+      },
       "items": [
         "Start with the simplest explanation first.",
         "Use examples, labels, and short sections.",
@@ -36,6 +51,11 @@
     {
       "heading": "Young or Creative Audiences",
       "body": "Young and creative audiences often enjoy bolder visual choices. They may respond well to expressive type, strong color, movement, illustration, and unexpected layouts.\n\nBut creative design still needs structure. The page can feel exciting without becoming confusing. The best hierarchy gives them energy first, then clarity immediately after.",
+      "exampleStyle": {
+        "name": "Memphis Design",
+        "description": "A playful visual style with bold geometry, clashing colors, energetic shapes, and expressive composition.",
+        "why": "Creative audiences often appreciate personality and visual experimentation. Memphis Design adds energy while still allowing clear section structure."
+      },
       "items": [
         "Use bold typography and memorable visual moments.",
         "Add color, motion, or illustration with purpose.",
@@ -46,6 +66,11 @@
     {
       "heading": "Professional or Business Audiences",
       "body": "Professional audiences look for trust, structure, and evidence. They want to know what the offer is, why it matters, and whether it is credible.\n\nFor this group, visual hierarchy should feel polished and reliable. Clean grids, strong headings, proof points, metrics, testimonials, and clear calls to action help the design feel serious and useful.",
+      "exampleStyle": {
+        "name": "Trust & Authority",
+        "description": "A professional style built around credibility signals, credentials, case studies, proof points, and confident structure.",
+        "why": "Business audiences need the design to feel reliable. Trust & Authority supports decision-making through visible proof and polished organization."
+      },
       "items": [
         "Use clean layouts and consistent spacing.",
         "Show proof through data, outcomes, or examples.",
@@ -56,6 +81,11 @@
     {
       "heading": "Older Adults",
       "body": "Older adults often benefit from layouts that are calm, readable, and predictable. The design should not rely on tiny text, low contrast, or hidden interactions.\n\nGood hierarchy for older audiences uses larger type, clear spacing, strong contrast, and simple navigation. The goal is not to make the design boring — it is to make it comfortable and respectful.",
+      "exampleStyle": {
+        "name": "E-Ink / Paper",
+        "description": "A calm reading style inspired by paper and e-ink, using high contrast, minimal animation, and low visual strain.",
+        "why": "Older adults benefit from readability and predictability. E-Ink / Paper keeps the interface comfortable, stable, and easy to read."
+      },
       "items": [
         "Use larger text and readable line spacing.",
         "Keep contrast strong between text and background.",
@@ -66,6 +96,11 @@
     {
       "heading": "Accessibility-Focused Audiences",
       "body": "Accessible hierarchy helps more people understand and use the design. It supports users with visual, cognitive, physical, or attention-related needs.\n\nA good accessible design does not depend on color alone. It uses structure, labels, headings, contrast, spacing, keyboard-friendly focus states, and clear language to make meaning visible in more than one way.",
+      "exampleStyle": {
+        "name": "Accessible & Ethical",
+        "description": "An inclusive style that prioritizes high contrast, larger text, keyboard navigation, clear structure, and ethical usability.",
+        "why": "This audience needs design choices that work for more bodies, abilities, and contexts. Accessible & Ethical makes usability the visual priority."
+      },
       "items": [
         "Do not use color as the only way to show importance.",
         "Use meaningful headings and logical reading order.",
@@ -76,6 +111,11 @@
     {
       "heading": "Expert Audiences",
       "body": "Expert audiences do not always need less information. They need better organization. They scan quickly, compare details, look for evidence, and expect the design to respect their time.\n\nFor experts, hierarchy should be precise. The strongest insight should come first, deeper evidence should be easy to find, and complex information should feel structured instead of simplified too much.",
+      "exampleStyle": {
+        "name": "Minimalism & Swiss Style",
+        "description": "A precise grid-based style rooted in clarity, readability, objectivity, generous white space, and functional typography.",
+        "why": "Experts do not need decorative noise. Minimalism & Swiss Style supports dense information, structured proof, and fast scanning."
+      },
       "items": [
         "Lead with the strongest insight, not a long introduction.",
         "Use specific headings, labels, and visual anchors.",
@@ -86,6 +126,11 @@
     {
       "heading": "The Main Lesson",
       "body": "Visual hierarchy is not one-size-fits-all. A design that works for experts may feel too dense for beginners. A design that feels exciting to creative audiences may feel risky to business audiences. A design that looks minimal may still fail if it is hard to read.\n\nThe strongest design style is the one that matches the audience. Good hierarchy begins by asking: who is looking, what do they need first, and how should the page guide them next?",
+      "exampleStyle": {
+        "name": "Comparative Analytics",
+        "description": "A comparison-based style that highlights differences, patterns, benchmarks, and side-by-side decisions.",
+        "why": "The final lesson compares audiences. Comparative Analytics helps viewers understand that each audience needs a different hierarchy strategy."
+      },
       "items": [
         "Clarity comes before decoration.",
         "Style should support the message, not fight it.",
